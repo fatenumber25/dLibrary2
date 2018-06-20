@@ -1,0 +1,84 @@
+PODS:
+  - Alamofire (4.7.0)
+  - AsyncSwift (2.0.4)
+  - CAPostEditorViewController (1.1)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
+  - dLibrary (0.0.4):
+    - Alamofire
+    - AsyncSwift
+    - CAPostEditorViewController
+    - ChameleonFramework
+    - Colours
+    - FCAlertView
+    - FMDB
+    - FontAwesomeKit
+    - MBProgressHUD
+    - MMNumberKeyboard
+    - NSData+Base64
+    - Reachability
+    - SwiftDate
+    - SwiftyJSON
+  - FCAlertView (1.4.0)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - FontAwesomeKit (2.2.1):
+    - FontAwesomeKit/Core (= 2.2.1)
+    - FontAwesomeKit/FontAwesome (= 2.2.1)
+    - FontAwesomeKit/FoundationIcons (= 2.2.1)
+    - FontAwesomeKit/IonIcons (= 2.2.1)
+    - FontAwesomeKit/Material (= 2.2.1)
+    - FontAwesomeKit/Octicons (= 2.2.1)
+    - FontAwesomeKit/Zocial (= 2.2.1)
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Material (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Octicons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.1):
+    - FontAwesomeKit/Core
+  - MBProgressHUD (1.1.0)
+  - MMNumberKeyboard (0.2.0)
+  - NSData+Base64 (1.0.0)
+  - Reachability (3.2)
+  - SwiftDate (4.5.1)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - dLibrary (from `../dLibrary`)
+
+EXTERNAL SOURCES:
+  dLibrary:
+    :path: ../dLibrary
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  AsyncSwift: 65775a7b32e740609b24969ece3de58723b9dc3e
+  CAPostEditorViewController: b6b44cf559b6b0054e9e1c236bfb6dfbf4abedbb
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
+  dLibrary: efc4db92f48b654dd02aed7c46cc766b4d7678cd
+  FCAlertView: fdddd63381898c1d1a5a20c9f084fbd2c6d12f8b
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MMNumberKeyboard: b07bf3f17f6c35822d4566a64a7719032beebe96
+  NSData+Base64: 4e84902c4db907a15673474677e57763ef3903e4
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: cfa3136e005f8a825cdd60e5df32af6b8109c40b
+
+COCOAPODS: 1.4.0
