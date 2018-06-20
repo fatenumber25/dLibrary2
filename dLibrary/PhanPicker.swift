@@ -46,6 +46,12 @@ public class PhanPicker: UIView {
             }
         }
     }
+    // Time interval
+    public func setTimeInterval(_ interval: Int){
+        if let picker = datePicker {
+            picker.minuteInterval = interval
+        }
+    }
     // Picker's title
     public private(set) var title: String = ""
     
