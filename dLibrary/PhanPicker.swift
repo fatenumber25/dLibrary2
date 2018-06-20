@@ -122,7 +122,7 @@ public class PhanPicker: UIView {
         contentView.addSubview(okBtn)
         
         // Button images
-        if let urlString = Bundle.main.path(forResource: "dLibrary", ofType: "framework", inDirectory: "Frameworks") {
+        if let urlString = Bundle.main.path(forResource: "dLibrary2", ofType: "framework", inDirectory: "Frameworks") {
             if let bundle = (Bundle(url: URL(fileURLWithPath: urlString))){
                 let okImagePath = (bundle.path(forResource: "Images", ofType: "bundle"))! + "/" + kFlatDatePickerIconValid
                 if let okImage = UIImage(contentsOfFile: okImagePath) {
