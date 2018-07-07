@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "dLibrary2"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "Basic framework"
   s.description  = "This framework contains a basic framework and convenient extensions, functions."
   s.homepage     = "https://github.com/fatenumber25"
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/fatenumber25/dLibrary2", :tag => "0.0.5" }
+  s.source       = { :git => "https://github.com/fatenumber25/dLibrary2", :tag => "0.0.6" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -82,5 +82,10 @@ Pod::Spec.new do |s|
   s.dependency "Toucan"
   s.dependency "ImagePicker"
   s.dependency "SkyFloatingLabelTextField"
+  s.dependency "NXDrawKit"
+  s.dependency "DKImagePickerController"
+  s.dependency "RNNotificationView"
+  s.dependency "VACalendar"
+  s.dependency "SCLAlertView"
 
 end
