@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "dLibrary2"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "Basic framework"
   s.description  = "This framework contains a basic framework and convenient extensions, functions."
   s.homepage     = "https://github.com/fatenumber25"
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/fatenumber25/dLibrary2", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/fatenumber25/dLibrary2", :tag => "0.0.5" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -49,7 +49,6 @@ Pod::Spec.new do |s|
   s.dependency "Alamofire"
   s.dependency "SwiftyJSON"
   s.dependency "FCAlertView"
-  s.dependency "AsyncSwift"
   s.dependency "SwiftDate"
   s.dependency "FMDB/SQLCipher"
   s.dependency "MBProgressHUD"
@@ -60,5 +59,28 @@ Pod::Spec.new do |s|
   s.dependency "Reachability"
   s.dependency "MMNumberKeyboard"
   s.dependency "CAPostEditorViewController"
+  s.dependency "Cartography"
+  s.dependency "AMScrollingNavbar"
+  s.dependency "CRRefresh"
+  s.dependency "SJFluidSegmentedControl"
+  s.dependency "DZNEmptyDataSet"
+  s.dependency "INTULocationManager"
+  s.dependency "Device"
+  s.dependency "SwiftyUserDefaults"
+  s.dependency "SwiftReorder"
+  s.dependency "SwipeCellKit"
+  s.dependency "TouchVisualizer"
+  s.dependency "ScrollableGraphView"
+  s.dependency "SwiftySound"
+  s.dependency "RandomKit"
+  s.dependency "SwiftyBeaver"
+  s.dependency "UIFontComplete"
+  s.dependency "SwiftIcons"
+  s.dependency "ImageViewer"
+  s.dependency "UIImageColors"
+  s.dependency "RandomColorSwift"
+  s.dependency "Toucan"
+  s.dependency "ImagePicker"
+  s.dependency "SkyFloatingLabelTextField"
 
 end
