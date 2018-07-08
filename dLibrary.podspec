@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "dLibrary2"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Basic framework"
   s.description  = "This framework contains a basic framework and convenient extensions, functions."
   s.homepage     = "https://github.com/fatenumber25"
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/fatenumber25/dLibrary2", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/fatenumber25/dLibrary2", :tag => "0.1.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
   s.dependency "SwiftyBeaver"
   s.dependency "UIFontComplete"
   s.dependency "SwiftIcons"
-  s.dependency "ImageViewer"
+  s.dependency "Lightbox"
   s.dependency "UIImageColors"
   s.dependency "RandomColorSwift"
   s.dependency "Toucan"
